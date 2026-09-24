@@ -1,0 +1,8 @@
+{
+  "nms_scores_threshold": 0.25,
+  "nms_iou_threshold": 0.45,
+  "classes": 1,
+  "max_proposals_per_class": 100,
+  "cross_classes_nms": false,
+  "labels": ["drone"]
+}

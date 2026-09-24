@@ -1,0 +1,6 @@
+path: C:/Users/dhruvbomber/drone-seraphim
+train: data/benchmark_subset.txt
+val: data/val.txt
+
+names:
+  0: drone

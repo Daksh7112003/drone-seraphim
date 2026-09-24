@@ -1,0 +1,4 @@
+# Fast compilation profile for per-epoch preview HEFs
+normalization1 = normalization([0.0, 0.0, 0.0], [255.0, 255.0, 255.0])
+model_optimization_flavor(optimization_level=0)
+post_quantization_optimization(offline_quantization=false)

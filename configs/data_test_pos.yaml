@@ -1,0 +1,5 @@
+path: C:/Users/dhruvbomber/drone-seraphim
+test: data/test.txt
+
+names:
+  0: drone

@@ -1,0 +1,23 @@
+# NOTICE & LICENSES
+
+This project utilizes datasets, libraries, and model architectures subject to the following licensing terms:
+
+1. **Seraphim Drone Detection Dataset**
+   - **Authors:** Lukasz Grzybowski, Seraphim Defence Systems
+   - **Repository:** Hugging Face `lgrzybowski/seraphim-drone-detection-dataset`
+   - **License:** Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+2. **Negative Dataset Sources (Proposed)**
+   - **COCO (Common Objects in Context):** Creative Commons Attribution 4.0 International (CC BY 4.0)
+   - **Open Images Dataset V7:** Creative Commons Attribution 2.0 / 4.0 Generic
+
+3. **YOLOv8 & Ultralytics**
+   - **Authors:** Ultralytics Inc.
+   - **License:** GNU Affero General Public License v3.0 (AGPL-3.0) or Enterprise License for commercial deployment.
+
+4. **Hailo Dataflow Compiler & Model Zoo**
+   - **Authors:** Hailo Technologies Ltd.
+   - **License:** Hailo Community / Commercial Developer License (Hailo Developer Zone).
+
+> [!WARNING]
+> Please review the above license terms prior to any commercial redistribution or deployment.

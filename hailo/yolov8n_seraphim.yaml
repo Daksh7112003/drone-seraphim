@@ -1,0 +1,33 @@
+# Hailo Model Zoo network configuration for YOLOv8n Seraphim Drone Detection (1 Class)
+base:
+  - base/yolov8.yaml
+
+network:
+  network_name: yolov8n_seraphim
+
+paths:
+  network_path:
+    - runs/yolov8n_seraphim/weights/best.onnx
+  alls_script: full.alls
+
+parser:
+  nodes:
+    - null
+    - null
+  normalization_params:
+    normalize_in_net: true
+    mean_list: [0.0, 0.0, 0.0]
+    std_list: [255.0, 255.0, 255.0]
+
+postprocess:
+  postprocess_config_file: nms_config.json
+
+quantization:
+  calib_set:
+    - calib/calib_set.npy
+
+evaluation:
+  dataset_name: seraphim_drone
+  data_path: ../data/test_mixed.txt
+  classes: 1
+  labels_offset: 0

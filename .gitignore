@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch / Model Weights & Binary Checkpoints
+*.pth
+*.hef
+*.engine
+*.bin
+/weights/
+/yolov8n.pt
+runs/detect/runs/benchmarks/
+runs/detect/runs/yolov8n_seraphim/weights/
+
+# Whitelist release weights & progress
+!runs/yolov8n_seraphim/weights/last.pt
+!runs/yolov8n_seraphim/weights/best.pt
+!runs/yolov8n_seraphim/weights/last.onnx
+!runs/yolov8n_seraphim/weights/last_export.json
+!runs/detect/runs/yolov8n_seraphim/results.csv
+
+# Original Dataset & Image/Label Directories (Keep repo light & clean)
+Data/
+data/
+!data/*.txt
+!Data/*.txt
+!data/*.md
+!Data/*.md
+!data/NEGATIVES.md
+!Data/NEGATIVES.md
+
+# Calibration Images & Arrays (Generated via scripts/make_calibration.py)
+hailo/calib/*.jpg
+*.cache
+*.npy
+
+# Temporary Export Queue & Logs
+export_queue/
+logs/*.csv
+logs/*.log
+logs/*.tmp
+logs/training_progress.json
+*.tmp
+
+# IDE / OS specific files
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store

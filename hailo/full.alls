@@ -1,0 +1,4 @@
+# Full quality compilation profile for final best.hef
+normalization1 = normalization([0.0, 0.0, 0.0], [255.0, 255.0, 255.0])
+model_optimization_flavor(optimization_level=2)
+post_quantization_optimization(offline_quantization=true)

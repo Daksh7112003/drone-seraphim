@@ -1,0 +1,7 @@
+path: C:/Users/dhruvbomber/drone-seraphim
+train: data/train.txt
+val: data/val.txt
+test: data/test.txt
+
+names:
+  0: drone
