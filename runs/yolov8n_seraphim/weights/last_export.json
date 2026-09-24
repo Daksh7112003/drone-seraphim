@@ -1,23 +1,23 @@
 {
-  "timestamp": 1790264031.6228702,
-  "time_str": "2026-09-24 08:33:51",
+  "timestamp": 1790264200.802358,
+  "time_str": "2026-09-24 08:36:40",
   "last_pt": {
-    "epoch": 71,
+    "epoch": 72,
     "exists": true,
-    "size_bytes": 18375621,
-    "sha256": "04f450cf95d6f0f312e74c5860a33cb6904d8e954a18a54bbba0da3e7e910ab7"
+    "size_bytes": 18375749,
+    "sha256": "3e356b9ac28e28f3555d3d7d8131cd1b4829b2bf66ae30046dd88cf5d6d76f62"
   },
   "best_pt": {
     "exists": true,
-    "size_bytes": 18375621,
-    "sha256": "04f450cf95d6f0f312e74c5860a33cb6904d8e954a18a54bbba0da3e7e910ab7"
+    "size_bytes": 18375749,
+    "sha256": "3e356b9ac28e28f3555d3d7d8131cd1b4829b2bf66ae30046dd88cf5d6d76f62"
   },
   "last_onnx": {
-    "epoch": 71,
+    "epoch": 72,
     "exists": true,
     "size_bytes": 12265737,
-    "export_duration_s": 0.8598997592926025,
-    "sha256": "a376f8a4a9b848c82282acac7a407dde18bd5e32f4cf360c9c2287ae45228f4c"
+    "export_duration_s": 0.9901778697967529,
+    "sha256": "d7680d960dee1c73826faa8bf215f824a6f126f8252d8825bc327ff9a1a05896"
   },
   "last_hef": {
     "status": "NOT BUILT (Hailo DFC requires Linux/WSL2)",
